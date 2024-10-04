@@ -34,6 +34,8 @@ def run_lsblk(device):
             if child['name'] == device:
                 return child
 
+def test_dummy():
+    pass
 
 def main(device):
     print(f"         '{run_lsblk(device)}'")
