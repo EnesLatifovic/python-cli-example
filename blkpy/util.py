@@ -8,6 +8,9 @@ def run_command(command):
     output = subprocess.check_output(cmd)
     return output
 
+def test_dummy():
+    pass
+    
 def run_lsblk(device):
     """
     Runs lsblk command and produces JSON output:
